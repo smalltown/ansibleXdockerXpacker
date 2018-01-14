@@ -1,0 +1,9 @@
+---
+- name: provision #{ container_template }
+  hosts: localhost
+  remote_user: root
+  become: yes
+  become_user: root
+  become_method: sudo
+  roles:
+    - { role: role_under_test, character: thor }
