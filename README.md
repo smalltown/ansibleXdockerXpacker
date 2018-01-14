@@ -1,6 +1,6 @@
 
 # Ansible X Docker X Packer
-This repository is a template to demonstrate how to use Packer & Ansible to provision Docker image
+This repository is a template to demonstrate how to use Packer & Ansible to provision nginx Docker image from official Ubuntu xenial
 
 # Prerequisite
 There are several modules need to be installed before getting start
